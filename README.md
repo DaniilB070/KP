@@ -91,11 +91,18 @@ Q(X) =
  
 **Схема 1 (основной поток):**  
 `X → f(X) → Q → CONTROL → STATE`
- 
+
+
+ <img width="1191" height="1888" alt="IMG_3004" src="https://github.com/user-attachments/assets/9884cfec-8f88-42c9-b452-484736a8e28c" />
+
+
 **Схема 2 (статистика):**  
 `Q[1..20] → заданный интервал → STATISTICS`  
-(среднее накапливается без массива, медиана — на следующих этапах)
- 
+
+
+<img width="1103" height="1314" alt="IMG_3005" src="https://github.com/user-attachments/assets/a98f1482-6fc2-4719-aa07-e00fdb8de684" />
+
+ 
 ---
  
 ## 8. Как собрать и запустить
